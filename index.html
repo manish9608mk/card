@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap intro</title>
+
+  <!-- TODO 1: Add the Bootstrap link here. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- kkb
+   koi bhi link agr add krni ho toh hamesha bootstrap link ke niche kro -->
+   <link rel="icon" href="./stevejobs.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lobster&display=swap" rel="stylesheet">
+
+  <style>
+    /* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
+    .flex-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    body{
+      background-color:rgb(207, 203, 203);
+    }
+    .card-text{
+      color: rgb(21, 139, 185);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card-title{
+      color: hsl(0, 0%, 0%);
+      font-family: baskervville;
+      font-weight: bold;
+      font-size: 1.8rem;
+    }
+    .card-body{
+      background-color: hsl(180, 100%, 98%);
+    }
+    .btn{
+      background-color: hsl(0, 71%, 16%);
+      color: white;
+    }
+    .card-img-top{
+      background-color: rgb(42, 26, 26);
+    }
+    footer {
+     text-align: right;
+     color: gray;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <!-- TODO 2: Add the Bootstrap Prebuilt Card here -->
+    <div class="card" style="width: 18rem;">
+      <!-- TODO 3: Change the image src to display the flower.jpg image. -->
+      <img src="./stevejobs.png" class="card-img-top" alt="steve-jobs-card">
+
+      <div class="card-body">
+        <h5 class="card-title">STEVE JOBS</h5>
+        <p class="card-text">Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American businessman, inventor, and investor best known for co-founding the technology company Apple Inc. Jobs was also the founder of NeXT and chairman and majority shareholder of Pixar. He was a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak.</p>
+        <a href="#" class="btn btn-primary">More History</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>copyright.@manishkumar - 2025</p>
+  </footer>
+</body>
+
+</html>

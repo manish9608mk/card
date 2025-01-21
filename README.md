@@ -4,4 +4,4 @@ Steve jobs card using bootstrap, html,css - simple card
 • The website is fully responsive 
 
 • The website is live at 👇
-https://manishkumar9608github.github.io/card/
+https://manish9608mk.github.io/card/
